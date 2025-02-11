@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayasurya Ragupathi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new Typed("#typed", {
+                strings: ["Mechanical Engineer", "Project Coordinator", "Process Optimizer"],
+                typeSpeed: 100,
+                backSpeed: 50,
+                loop: true
+            });
+        });
+    </script>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #1a1a2e; color: white; }
+        .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+        .dark-mode { background-color: #fff; color: black; }
+    </style>
+</head>
+<body>
+    <nav class="flex justify-between items-center p-5 bg-gray-900">
+        <h1 class="text-xl font-bold">Jayasurya Ragupathi</h1>
+        <button onclick="toggleDarkMode()" class="px-4 py-2 bg-blue-500 text-white rounded">Toggle Dark Mode</button>
+    </nav>
+    
+    <div class="hero">
+        <div>
+            <h1 class="text-5xl font-bold">Hello, I'm <span id="typed"></span></h1>
+            <p class="mt-4">Mechanical and Industrial Engineering graduate specializing in project coordination, process optimization, and technical problem-solving.</p>
+            <a href="#projects" class="mt-6 px-6 py-3 bg-blue-500 text-white rounded inline-block">View Projects</a>
+        </div>
+    </div>
+    
+    <section id="about" class="p-10 text-center">
+        <h2 class="text-3xl font-bold">About Me</h2>
+        <p class="mt-4">Mechanical and Industrial Engineering graduate with experience in project coordination, process optimization, and technical problem-solving. Skilled in Lean Manufacturing, Six Sigma, and CAD modelling, with hands-on experience from Volkswagen and Revaa Engineering. Proficient in stakeholder communication, budget monitoring, and ERP systems, demonstrated through research collaborating with PwC and SAMCO Machinery. Passionate about driving efficiency and supporting project execution in engineering environments.</p>
+    </section>
+    
+    <section id="work-experience" class="p-10 text-center">
+        <h2 class="text-3xl font-bold">Work Experience</h2>
+        <ul class="mt-4">
+            <li><strong>Process Improvement Analyst - Learning Space Management</strong> (Sep 2023 – Present)</li>
+            <li><strong>Supply Chain Analyst Intern - PwC</strong> (Sep 2024 – Dec 2024)</li>
+            <li><strong>Manufacturing Engineer Intern - Volkswagen India</strong> (Oct 2022 - Jul 2023)</li>
+        </ul>
+    </section>
+    
+    <section id="project-experience" class="p-10 text-center">
+        <h2 class="text-3xl font-bold">Project Experience</h2>
+        <ul class="mt-4">
+            <li><strong>Manufacturing Process Optimization Analyst - SAMCO Machinery</strong> (Sep 2023 - Dec 2023)</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="p-10 text-center">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <p>Email: <a href="mailto:Jayasurya890@gmail.com" class="text-blue-400">Jayasurya890@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/jayasurya-ragupathi" class="text-blue-400">linkedin.com/in/jayasurya-ragupathi</a></p>
+    </section>
+    
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
